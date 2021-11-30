@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+#ll{
+    display: flex;
+    flex: 1;
+}
+#kk{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-direction: flex ;
+    align-items: stretch;
+
+}
+#hh{
+    display: flex;
+    flex: 1;
+}
+#hh > article{
+    flex: 1;
+    order: 0;
+    
+}
+#ll > nav{
+    flex: 0 0 20vw;
+}
+#ll > nav{
+    background: rgb(2, 248, 43);
+    color: rgb(104, 6, 6);
+    order: 0;
+}
+#hh > aside{
+    background: rgb(0, 80, 80);
+    color: black;
+    order: 1;
+    flex: 0 0 20vw;
+
+}
+header,footer{
+    background: rgb(138, 84, 3);
+    color: black;
+    height: 20vh;
+}
+header,footer,article,nav,aside{
+    padding: 1em;
+}
